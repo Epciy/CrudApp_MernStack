@@ -1,0 +1,28 @@
+POST /token HTTP/1.1
+Host: oauth2.googleapis.com
+Content-length: 261
+content-type: application/x-www-form-urlencoded
+user-agent: google-oauth-playground
+code=4%2F0AZEOvhV-gXWLfqoOo4YEewH-xFe63g2FhkoAX7yaQcoRlrbGzCEnUn2RjIOlEKu5_tldTQ&redirect_uri=https%3A%2F%2Fdevelopers.google.com%2Foauthplayground&client_id=407408718192.apps.googleusercontent.com&client_secret=************&scope=&grant_type=authorization_code
+HTTP/1.1 200 OK
+Content-length: 447
+X-xss-protection: 0
+X-content-type-options: nosniff
+Transfer-encoding: chunked
+Expires: Mon, 01 Jan 1990 00:00:00 GMT
+Vary: Origin, X-Origin, Referer
+Server: scaffolding on HTTPServer2
+-content-encoding: gzip
+Pragma: no-cache
+Cache-control: no-cache, no-store, max-age=0, must-revalidate
+Date: Fri, 28 Jul 2023 11:13:58 GMT
+X-frame-options: SAMEORIGIN
+Alt-svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+Content-type: application/json; charset=utf-8
+{
+  "access_token": "ya29.a0AbVbY6N0Ku5QK723q9jlke3nyWSEd398yNePK_6FJFqiHGScthvEenRvwASx8ywfgt7pUnBeUp3deitGOXyjeVM8gjn21zr9h3kfA0jLnhTF2tZmyrFASlUutK16P0AVDOxFLzUgGr8C6SsCp3z5vpzqESovaCgYKATYSARASFQFWKvPlwOK6JEAe30jUxi-yPe20VQ0163", 
+  "scope": "https://mail.google.com/", 
+  "token_type": "Bearer", 
+  "expires_in": 3599, 
+  "refresh_token": "1//043bZGHYIKWnTCgYIARAAGAQSNwF-L9IrA-wv1Nz7ls4OFcw4ZprFWUrpY9p9QVXO1xbqPHw_0Em99RVWTLQPtfM_Zz6ivQ0fS3g"
+}
